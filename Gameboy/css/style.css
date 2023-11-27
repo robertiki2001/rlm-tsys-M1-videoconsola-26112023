@@ -1,0 +1,268 @@
+body > div
+{
+    width: 275px;
+    height: 510px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fffb1793;
+    border-radius: 15px 15px 150px 150px / 15px 15px 35px 35px;
+}
+#parteSuperior
+{
+    border-radius: 15px 15px 150px 150px / 15px 15px 15px 15px;
+    padding: 10px 50px;
+    background-color: #313335;
+}
+#Led 
+{
+    background: #dc0e2c;
+    border-radius: 100%;
+    position: relative;
+    top: 60px;
+    left: -35px;
+    height: 8px;
+    width: 8px;
+}
+#parentesis 
+{
+    color: #bdc6d4;
+    font-size: 8px;
+    font-family: Lao MN;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 8px;
+    position: relative;
+    top: 52px;
+    left: -25px;
+}
+#POWER 
+{
+    color: #bdc6d4;
+    font-size: 5px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 8px;
+    position: relative;
+    top: 60px;
+    left: -35px;
+}
+#pantalla
+{
+    background-color: #9da5a1;
+    width: 100%;
+    height: 150px;
+}
+#nombre
+{
+    padding: 10px 0;
+    text-align: center;
+    color: #bdc6d4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+#C
+{
+    color: #b80a41;
+    font-family: Comic Sans MS;
+    font-style: normal;
+}
+#O1
+{
+    color: #56527d;
+    font-family: Comic Sans MS;
+    font-style: normal;
+}
+#L
+{
+    color: #7d9273;
+    font-family: Comic Sans MS;
+    font-style: normal;
+}
+#O2
+{
+    color: #c4c470;
+    font-family: Comic Sans MS;
+    font-style: normal;
+}
+#R
+{
+    color: #27619d;
+    font-family: Comic Sans MS;
+    font-style: normal;
+}
+#nintendo 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    margin-top: 15px;
+    text-align: center;
+}
+#nintendo span
+{
+    border: 2px solid #ff5b5b;
+    border-radius: 25px;
+    box-shadow: 1px 1px 0px #ff5b5b;
+    color: #ff5b5b;
+    padding: 3px 5px 2px 6px;
+    text-shadow: -1px -1px 0px #ff5b5b;
+    width: 70px;
+}
+#A_B 
+{
+    font-family: Arial;
+    font-size: 18px;
+    left: 170px;
+    top: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#A_B div 
+{
+    background: #424950;
+    border-radius: 100%;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,.4), 1px 1px 1px 0px rgba(0,0,0,.5), inset 1px 1px 0px 0px rgba(255,255,255,0.1), inset 0px 0px 2px 0px rgba(255,255,255,0.05), inset 0px 0px 10px 0px rgba(255,255,255,0.05);
+    color: #353a3f;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px #525961;
+    width: 30px;
+}
+#A_B div:first-child 
+{
+    left:50px;
+    top: 0px;
+    
+}
+#A_B div:last-child 
+{
+    left:0px;
+    top: 15px;
+}
+#flechas 
+{
+    font-family: Arial;
+    font-size: 15px;
+    left: 45px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40px;
+}
+#flechas div 
+{
+    background: #424950;
+    color: #353a3f;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px #525961;
+}
+#flechas #arriba 
+{
+    border:1px solid rgba(0,0,0,.3);
+    border-bottom: none;
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,.4), inset 1px 1px 0px 0px rgba(255,255,255,0.15);
+    top: -21px;
+    left: -1px;
+}
+#flechas #der 
+{
+    border:1px solid rgba(0,0,0,.3);
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,.4), inset -1px -1px 1px 0px rgba(255,255,255,0.08);
+    left: 20px;
+    top: -1px;
+}
+#flechas #abajo 
+{
+    border:1px solid rgba(0,0,0,.3);
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,.4), inset -1px -1px 1px 0px rgba(255,255,255,0.08);
+    top: 20px;
+    left: -1px;
+}
+#flechas #izq 
+{
+    border:1px solid rgba(0,0,0,.3);
+    border-right: none;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,.4), inset 1px 1px 0px 0px rgba(255,255,255,0.15);
+    left: -21px;
+    top: -1px;
+}
+#start_selectBtn 
+{
+    position: relative;
+    top: 150px;
+    left: 105px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#start_selectBtn div 
+{
+    background: #504242;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 25px;
+    height: 10px;
+    width: 25px;
+}
+#start_selectBtn div:first-child
+{
+    margin-right: 10px;
+}
+#start_selectBtn div:first-child:after
+{
+    content: 'SELECT';
+    color: #ff5b5b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    top: 15px;
+    left: -7px;
+    position: relative;
+    border: 1px solid #ff5b5b;
+    padding: 2px 3px;
+    border-radius: 25px;
+}
+#start_selectBtn div:last-child:after
+{
+    content: 'START';
+    color: #ff5b5b;
+    font-family: Helvetica;
+    font-size: 8px;
+    top: 15px;
+    left: -4px;
+    position: relative;
+    border: 1px solid #ff5b5b;
+    padding: 2px 3px;
+    border-radius: 25px;
+}
+#agujeros 
+{
+    font-size: 10px;
+    position: relative;
+    text-align: center;
+    transform: rotate(-5deg);
+    top: 170px;
+    left: 105px;
+    letter-spacing: -1px;
+    line-height: 7px;
+}
+.boton:hover
+{
+    cursor: pointer;
+    background-color: #aaaaaa !important;
+    box-shadow: none !important;
+}
